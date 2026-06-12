@@ -1,6 +1,6 @@
 # CSP4CMSIS Simple Sender‑Receiver Demo for NUCLEO-G474RE
 
-A minimal demonstration of the **CSP (Communicating Sequential Processes)** library using CMSIS‑RTOS v2 on an STM32G474RE microcontroller. This project implements a classic rendezvous channel between two processes: one sender that transmits an ever‑incrementing unsigned integer, and one receiver that prints each value.
+A minimal demonstration of the **CSP (Communicating Sequential Processes)** library using CMSIS‑RTOS v2 on an STM32G474RE microcontroller. This project implements a classic rendezvous channel between two processes: one sender that transmits an ever‑incrementing unsigned integer, and one receiver that prints each value. The formal CSP model can be found [here](https://github.com/OliverFaust/CSP4CMSIS-nucleo-g474re_v10_Single_Channel/tree/main/Formal%20model).
 
 ## Features
 
