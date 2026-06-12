@@ -1,0 +1,9 @@
+-- Process_Channel
+channel c : {0..9}
+
+Sender(n) = c!n -> Sender((n+1)%10)
+
+Receiver =
+    c?x -> Receiver
+
+SYSTEM =  Sender(0) [| {|c|} |] Receiver
